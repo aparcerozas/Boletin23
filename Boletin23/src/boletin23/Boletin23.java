@@ -30,7 +30,7 @@ public class Boletin23 {
         }
         Queue<Integer> idades = new LinkedList<>();
         for(int i=0;i<numPersoas;i++){
-            int random = (int)(Math.random()* 60 + 5);
+            int random = (int)(Math.random()* 56 + 5);
             if(random<=10){
                 total=total+1;
             }
